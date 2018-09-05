@@ -1,0 +1,30 @@
+{
+    "name": "galaxy-theme",
+    "displayName": "Galaxy Theme",
+    "description": "Good colors, syntax highlight and nice to look at",
+    "version": "0.0.1",
+    "publisher": "test",
+    "repository":{
+        "type": "git",
+        "url": "https://github.com/Learning191/galaxy-theme-vscode"
+    },
+    "bugs": {
+        "url": "https://github.com/Learning191/galaxy-theme-vscode/issues",
+        "email": "codingj191@gmail.com"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Galaxy Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Galaxy Theme-color-theme.json"
+            }
+        ]
+    }
+}
